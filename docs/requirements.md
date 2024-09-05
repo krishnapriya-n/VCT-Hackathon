@@ -1,6 +1,6 @@
 # Requirements
 
-Build a LLM-powered digital assistant with a chat interface using Amazon Bedrock’s native capabilities. Use this new technology to build teams and answer various questions about VALORANT esports players, leveraging provided data sources and demonstrating effective information retrieval and analysis.
+Entrants must build a LLM-powered digital assistant with a chat interface using Amazon Bedrock’s native capabilities. Use this new technology to build teams and answer various questions about VALORANT esports players, leveraging provided data sources and demonstrating effective information retrieval and analysis (each a “Project”). 
 
 ## LLM-Powered Digital Assistant Requirements
 
@@ -12,8 +12,8 @@ The digital assistant should be able to provide team compositions based on the f
 - Mixed-Gender Team Submission: Build a team with at least 2 players from an underrepresented group (ex. Game Changers)
 - Cross-Regional Team Submission: Build a team with players from 3+ regions
 - Rising Star Team Submission: Build a team that includes at least two semi-professional players (VCT Challengers or VCT Game Changers)
-
-  ## For each team composition:
+- 
+## For each team composition:
 
 - Answer questions about player performance with specific agents (in-game playable characters)
 - Assign roles to players on the team and explain their contribution
