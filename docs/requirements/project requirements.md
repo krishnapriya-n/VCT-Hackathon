@@ -1,3 +1,5 @@
+# Project Requirements
+
 ### Functionality
 The Project must be capable of being successfully installed and running consistently on the platform for which it is intended and must function as depicted in the video and/or expressed in the text description.
 
