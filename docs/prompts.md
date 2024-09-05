@@ -17,3 +17,7 @@ Your digital assistant should be able to provide responses to <b>all of the foll
 
     - <b>Rising Star Team Submission:</b> "Build a team that includes at least two semi-professional players, such as from VCT Challengers or VCT Game Changers. Define roles and discuss details of how these players were chosen."
         - <i>To be used for bonus prizing evaluation</i>
+
+
+### Note
+Finalists will receive additional follow-up prompts after the down selection process. Please ensure your digital assistant can elaborate on the team compositions and provide reasoning for questions such as "What recent performances or statistics justify the inclusion of *player name* in the team?"
