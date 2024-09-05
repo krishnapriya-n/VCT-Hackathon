@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9bdbf113-5a3f-4896-b630-1e115e0dd965)<img alt="VCT Hackathon: Esports Manager Challenge" src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/971/388/datas/full_width.png">
+<img alt="VCT Hackathon: Esports Manager Challenge" src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/971/388/datas/full_width.png">
 
 Create a LLM-powered digital assistant with Amazon Bedrock to build teams and answer questions about VALORANT Esports players
 
@@ -11,3 +11,8 @@ You are hired as a data scientist on a new VALORANT Esports team and have been t
 # Amazon Bedrock
 
 Leveraging <a href = "https://aws.amazon.com/bedrock/" rel = "nofollow">Amazon Bedrock’s</a> generative AI capabilities, you will use provided data sources to demonstrate effective information retrieval and analysis, creating a digital assistant that enhances understanding of VALORANT’s dynamic esports scene.
+
+## What to Use:
+- Amazon Bedrock native functionality such as Agents, Knowledge Bases and more!
+- Esports data from Riot or approved community resources
+- <a href = "https://vcthackathon.devpost.com/resources" rel = "nofollow">More Resources</a>
