@@ -2,7 +2,7 @@
 
 <a href = "https://docs.google.com/document/d/19H3FsWYEli6ShIV5_5fmhq2xDdfcQOCXlRiNvKZLYL8/edit?usp=sharing" rel = "nofollow"> Link to the official document </a>
 
-<b> Last Updated:  5PM PST - 9/3/2024 </b>
+<b> Last Updated: 2:35PM PST - 9/6/2024 </b>
 <i> Please note that this is a living document, and could be updated throughout the Hackathon to reflect any frequently asked questions we might get from participants. </i>
 
 Participants are provided with four sources of data in the S3 bucket:
@@ -90,6 +90,8 @@ jq '.' uglyFile.json > formattedFile.json
 ## Accessing the data from S3
 
 S3 Bucket URL: s3://vcthackathon-data/
+
+### NOTE: The game data is currently corrupted - we are working on a fix and should have an update soon. The data should be correct by 09/06/24 ~5:00 PM PST. 
 
 Here is the access pattern we recommend for downloading the data onto your local machine:
 
