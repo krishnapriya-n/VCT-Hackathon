@@ -2,14 +2,14 @@
 
 This document will be used to assign dates throughout the project, along with task details.
 
-| Event | Description | Date | Assignees |
-| --- | --- | --- | --- |
-| Project Start | Documentation and resources gathered for the project | 06/09/2024 | @everyone | 
-| AWS Sign Up | Signing up to use credits provided by the stakeholders | 07/09/2024 | @krishnapriya-n
-| Role Assignment | Assigning roles for team members | 08/09/2024 | @everyone | 
-| TBD | TBD | TBD | TBD |
-| Project Due | Deadline to submit the project | 24/10/2024 | @everyone |
-| Winner Announcement | D Day | 05/12/2024 | @everyone |
+| Event | Description | Date | Assignees | Status |
+| --- | --- | --- | --- | --- |
+| Project Start | Documentation and resources gathered for the project | 06/09/2024 | @everyone | Completed |
+| <a href = "https://github.com/krishnapriya-n/VCT-Hackathon/issues/1">Role Assignment</a> | Assigning roles for team members | 08/09/2024 | @everyone | To be done by @Annihilator2860 |
+| <a href = "https://github.com/krishnapriya-n/VCT-Hackathon/issues/2">AWS Sign Up</a> | Signing up to use credits provided by the stakeholders | 08/09/2024 | @krishnapriya-n | Completed |
+| <a href = "https://github.com/krishnapriya-n/VCT-Hackathon/tree/main/project">Documentation</a> | Documentation of where and how to start the project | 09/09/2024 | @krishnapriya-n | In progress |
+| Project Due | Deadline to submit the project | 24/10/2024 | @everyone | Not done |
+| Winner Announcement | D Day | 05/12/2024 | @everyone | Not done |
 
 # Sessions offered by AWS and Riot Games
 
