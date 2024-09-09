@@ -12,7 +12,7 @@ The digital assistant should be able to provide team compositions based on the f
 - Mixed-Gender Team Submission: Build a team with at least 2 players from an underrepresented group (ex. Game Changers)
 - Cross-Regional Team Submission: Build a team with players from 3+ regions
 - Rising Star Team Submission: Build a team that includes at least two semi-professional players (VCT Challengers or VCT Game Changers)
-- 
+
 ## For each team composition:
 
 - Answer questions about player performance with specific agents (in-game playable characters)
