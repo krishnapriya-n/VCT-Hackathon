@@ -40,6 +40,7 @@ See: <a href = "https://github.com/krishnapriya-n/VCT-Hackathon/tree/main/docs/r
 VCT-Hackathon
 ├── docs
     ├── requirements
+    ├── project-approach
 ├── meetings
 ├── project
 ├── resources
