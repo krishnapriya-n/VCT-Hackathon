@@ -12,7 +12,7 @@ Build a LLM-powered digital assistant with a chat interface using Amazon Bedrock
 | Name | Role | Profile |
 | --- | --- | --- |
 | Aryan Malik | Testing and Quality Assurance / Demo Video Creation | <a href = "https://github.com/Annihilator2860" rel = "nofollow"> Annihilator2860</a>
-| Krishna Priya N | Project Manager/ Documentation and Methodology Writeup (TBD) | <a href = "https://github.com/krishnapriya-n" rel = "nofollow"> krishnapriya-n</a>
+| Krishna Priya N | Project Manager/ Documentation and Methodology Writeup | <a href = "https://github.com/krishnapriya-n" rel = "nofollow"> krishnapriya-n</a>
 | Pranav K | Machine Learning Engineer | <a href = "https://github.com/enmadourayuga" rel = "nofollow"> enmadourayuga</a>
 | Amazon Web Services | Sponsor | <a href = "https://aws.amazon.com/" rel = "nofollow"> AWS </a> | 
 | Riot Games | Stakeholder | <a href = "https://www.riotgames.com/en"> Riot Games </a> |
