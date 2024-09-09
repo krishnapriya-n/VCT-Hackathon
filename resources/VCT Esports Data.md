@@ -2,7 +2,7 @@
 
 <a href = "https://docs.google.com/document/d/19H3FsWYEli6ShIV5_5fmhq2xDdfcQOCXlRiNvKZLYL8/edit?usp=sharing" rel = "nofollow"> Link to the official document </a>
 
-<b> Last Updated: 2:35PM PST - 9/6/2024 </b>
+<b> Last Updated: 1:48PM PST - 9/9/2024 </b>
 <i> Please note that this is a living document, and could be updated throughout the Hackathon to reflect any frequently asked questions we might get from participants. </i>
 
 Participants are provided with four sources of data in the S3 bucket:
@@ -89,9 +89,9 @@ jq '.' uglyFile.json > formattedFile.json
 
 ## Accessing the data from S3
 
-S3 Bucket URL: s3://vcthackathon-data/
+<a href = "https://vcthackathon-data.s3.us-west-2.amazonaws.com">S3 Bucket URL</a>
 
-### NOTE: The game data is currently corrupted - we are working on a fix and should have an update soon. The data should be correct by 09/06/24 ~5:00 PM PST. 
+### NOTE: As of 1:48 PM PST - 9/9/2024, the data has been updated to include player creation & update times. Furthermore, the game data has been divided into year to make downloads easier (you can choose to only download 2024, for instance)
 
 Here is the access pattern we recommend for downloading the data onto your local machine:
 
@@ -100,9 +100,64 @@ Here is the access pattern we recommend for downloading the data onto your local
   a. Join tournament, team or participant data here if needed
 3. For each platform game ID, download its associated game data file
 
-Participants should note that downloading all the game data onto your local machine will require a <b>significant</b> amount of storage, as the entire dataset has a total size of <b>51.9 GB</b>. If you choose to download this data on your local machine you will need to be selective with what you download - consider only downloading a subset of the data, i.e. certain leagues or tournaments.
+Participants should note that downloading all the game data onto your local machine will require a <b>significant</b> amount of storage, as the entire dataset has a total size of <b>101 GB</b>. If you choose to download this data on your local machine you will need to be selective with what you download - consider only downloading a subset of the data, i.e. certain leagues or tournaments.
 
 You can choose to visualize / use the data using standard code editors or tools such as AWS Athena. Data analytics such as Athena will require you to extract the gzipped folder. Since the provided data is separated by league, you could download a league (i.e. VCT international), cd into it and run a script to extract all the JSON data. Here is an example of a Python script you could use to extract game data of VCT internationals.
+
+The stats / XML data is in a public S3 bucket, following the structure:
+/vct-hackathon-2024 (root)
+→ /fandom
+  → *.xml
+→ /game-changers
+  → /esports-data
+    → *.json.gz
+  → /games
+    → /2022
+      → *.json.gz
+    → /2023
+      → *.json.gz
+    → /2024
+      → *.json.gz
+→ /vct-challengers
+  → /esports-data
+    → *.json.gz
+  → /games
+    → /2023
+      → *.json.gz
+    → /2024
+      → *.json.gz
+→ /vct-international
+  → /esports-data
+    → *.json.gz
+  → /games
+    → /2022
+      → *.json.gz
+    → /2023
+      → *.json.gz
+    → /2024
+      → *.json.gz
+
+The approximate sizes for the entire dataset is:
+/fandom → 5.1 MB
+/game-changers
+  → /esports-data → 282.8 KB
+  → /games
+    → /2022 → 697.4 MB
+    → /2023 → 8.9 GB
+    → /2024 → 5.7 GB
+/vct-challengers → 62.3 GB
+  → /esports-data → 990.3 KB
+  → /games
+    → /2023 → 30.3 GB
+    → /2024 → 31.9 GB
+/vct-international → 23.6 GB
+  → /esports-data→ 297.0 KB
+  → /games
+    → /2022 → 1.1 GB
+    → /2023 → 8.7 GB
+    → /2024 → 13.9 GB
+
+Please note, we used a GZIP compression algorithm to reduce the S3 storage size. You should expect the data to take 50-80% more space when using this script to download and decompress the data
 
 ``` Python
 import requests
